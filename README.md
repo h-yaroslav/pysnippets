@@ -1,10 +1,13 @@
-h2. pysnippets
+pysnippets
+==========
 
 Useful python code snippets
 
 
-h2. This README contains commands that were executed on the hosting
-
+git commands
+============
+*This README contains git commands that were executed on the hosting*
+```bash
 # Generate RSA key (without password) to be installed on Github
 $ ssh-keygen.exe -t rsa -C "h.yaroslav@gmail.com"
 # Add `id_rsa.pub` key to the "SSH Keys" on the https://github.com/settings/ssh page
@@ -26,3 +29,6 @@ $ git clone git@github.com:h-yaroslav/pysnippets.git
 # Sync latest changes
 $ git pull
 
+$ git commit -m "My change's description"
+$ git push
+```
